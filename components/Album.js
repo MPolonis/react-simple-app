@@ -2,12 +2,14 @@ class Album extends React.Component {
     
     render() {
         return (
-            <div>
-                <img src={this.props.item.cdCover}></img>
-                <h1>Name: {this.props.item.cdName}</h1>
-                <h2>Year: {this.props.item.year}</h2>
-                <h2>Label: {this.props.item.label}</h2>
-                <h2>User rating: {this.props.item.rating}</h2>
+            <div className={'albumBox'}>
+                <img className={'imgStyle'} src={this.props.item.cdCover} alt={'album cover'}></img>
+                <div className={'label'}>
+                    <h2 className={'cdName'}>Album: {this.props.item.cdName}</h2>
+                    <p>Year: {this.props.item.year}</p>
+                    <p>Label: {this.props.item.label}</p>
+                    <p>User rating: {this.props.item.rating}</p>
+                </div>
             </div>
         )
     }

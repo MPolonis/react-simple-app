@@ -77,7 +77,8 @@ var albums = [
 class App extends React.Component {
     render() {
         return (
-            <div>
+            <div className={'mainStyle'}>
+                <h1 className={'webTitle'}><span className={'bandName'}>The National</span> discography</h1>
                 <Albums items={albums} />
             </div>
             

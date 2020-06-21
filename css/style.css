@@ -1,9 +1,34 @@
-.circleStyle {
+.mainStyle {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.webTitle {
+    font-size: 40px;
+    padding: 40px;
+}
+
+.bandName {
+    text-transform: uppercase;
+    color: #edd626;
     padding: 20px;
-    margin: 10px;
-    display: inline-block;
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    background-color: #F9C240;
-};
+}
+
+.albumBox {
+    padding-bottom: 40px;
+}
+
+.imgStyle {
+    height: 350px;
+    width: 350px;
+}
+
+.cdName {
+    font-size: 30px;
+}
+
+.label {
+    font-size: 24px;
+}
